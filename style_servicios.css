@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #91add8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 20px;
+}
+
+
+.servicios {
+    background-color: #f7f9fd;
+    max-width: 1000px;
+    margin: auto;
+    padding: 120px 40px 30px;
+    text-align: center;
+}
+
+
+.encabezado {
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    color: #64748b;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.encabezado h1 {
+    color: #11112f;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.encabezado h1 span {
+    display: block;
+    font-weight: normal;
+}
+
+.descripcion {
+    color: #777;
+    font-size: 13px;
+    max-width: 500px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    position: relative;
+    z-index: 2;
+}
+
+
+.tarjeta {
+    background-color: white;
+    width: 31%;
+    min-width: 220px;
+    padding: 25px 20px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+
+.tarjeta h3 {
+    color: #17172e;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.tarjeta p {
+    color: #777;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tarjeta a {
+    color: #304eaa;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.boton-contenedor {
+    background-color: #08083e;
+    margin-top: -90px;
+    padding: 115px 20px 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #2855ec;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 11px;
+    text-decoration: none;
+}
